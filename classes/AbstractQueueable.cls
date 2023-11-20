@@ -11,5 +11,7 @@ public class AbstractQueueable {
         if (!smsDetails.isEmpty()) {
             TwilioSF.TwilioSendSMS.sendSMSToNumber(smsDetails);
         }
-    } 
+
+        Integer i = TestClass.testGearSet(10);
+    }
 }   
